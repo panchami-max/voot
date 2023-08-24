@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .carousel-item img{
+          height:600px;
+          width:90%;
+        } 
+        .carousel-inner {
+          margin: 10px 0px 0px 80px;
+        }
+        .carousel-control-prev-icon{
+          position:relative;
+          left: 100px;
+        }
+        .carousel-control-next-ico{
+          position: relative;
+          right: 100px;
+        }
+        .top{
+            color: aliceblue;
+
+        }
+        .top-img{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+        .top-img img{
+            /* height: 250px;
+            width: 20px; */
+            margin: 5px;
+            border: 3px solid;
+            
+
+        }
+        .top-img img:hover{
+          transform: scale(1.2);
+          transition: all,1s ease-in-out;
+          border-radius: 5px;
+        }
+        .best{
+            color: aliceblue;
+        }
+        .best-img{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .best-img img{
+            height: 250px;
+            width: 240px;
+            margin: 5px;
+            border: 3px solid;
+        }
+        .best-img img:hover{
+            transform: scale(1.2);
+            transition: all,1s ease-in-out;
+            border-radius: 5px;
+
+        }
+        .drama{
+            color: aliceblue;
+        }
+        .drama-img{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .drama-img img{
+            height: 250px;
+            width: 240px;
+            margin: 5px;
+            border: 3px solid;
+        }
+        .drama-img img:hover{
+            transform: scale(1.2);
+            transition: all,1s ease-in-out;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="bell.jpg" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="family.webp" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="geetha.jpg" class="d-block" alt="...">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="top">
+        <h2>Top_kannada_blockbusters</h2>
+        <div class="top-image">
+            <img src="bell.jpg" alt="" height="250" width="240px">
+            <img src="charl.jpg" alt="" height="250" width="240px">
+            <img src="badava.jpg" alt="" height="250" width="240px">
+            <img src="appu.jpg" alt="" height="250" width="240px">
+            <img src="bairagi.jpg" alt="" height="250" width="240px">
+            <img src="akash.jpg" alt="" height="250" width="240px">
+
+        </div>
+      </div>
+      <div class="best">
+        <h2>Best_of_reality</h2>
+        <div class="best-img">
+            <img src="nam.jpg" alt="">
+            <img src="bigg.jpg" alt="">
+            <img src="gichi.jpg" alt="">
+            <img src="raja.jpg" alt="">
+            <img src="dance.avif" alt="">
+            <img src="ede.jpg" alt="">
+
+        </div>
+      </div>
+      <div class="drama">
+        <h2>Best_of_Drama</h2>
+        <div class="drama-img">
+            <img src="agni.jpg" alt="">
+            <img src="kannadathi.webp" alt="">
+            <img src="radha.jpg" alt="">
+            <img src="gini.avif" alt="">
+            <img src="putt.jpg" alt="">
+            <img src="lakshmi.jpg" alt="">
+
+        </div>
+      </div>
+
+    
+</body>
+</html>
